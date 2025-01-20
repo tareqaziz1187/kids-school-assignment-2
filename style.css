@@ -87,6 +87,9 @@ header{
         flex-direction: column-reverse;
     
     }
+    .bannar-img-area img{
+        width: 100%;
+    }
 
 
     
