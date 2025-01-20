@@ -10,7 +10,7 @@
 
 /* Header Section */
 header{
-    min-width: 100%;
+    max-width: 100%;
 }
 .nav-container{
     justify-content: space-around ;
@@ -41,6 +41,7 @@ header{
     margin: 5%;
     justify-content: space-between;
     padding: 5%;
+   
 }
 .bannar-text-area{
     align-content: center;
@@ -50,6 +51,9 @@ header{
     color: white;
     padding: 0.7rem 1.5rem;
     border-radius: 10px;
+}
+.bannar-img-area img{
+    width: 100%;
 }
 
 
@@ -63,7 +67,6 @@ header{
     }
     .nav-container{
         justify-content: space-between;
-        /* background-color: blue; */
         min-width: 100%;
     }
     .nav-container h1{
@@ -82,6 +85,7 @@ header{
     /* Bannar Section */
     .bannar-container{
         flex-direction: column-reverse;
+    
     }
 
 
