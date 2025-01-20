@@ -58,6 +58,38 @@ header{
 
 
 
+/*  Standard curriculam and Our story Section*/
+.curriculam-story{
+    
+    background-image: linear-gradient(rgba(255, 0, 0, 0.088) , rgba(0, 0, 255, 0.179)) ,url(./assets/bg.png);
+}
+.curriculam-container{
+    text-align: center;
+    
+    
+}
+.curriculam-container h1{
+    padding-top: 5%;
+
+}
+
+.curriculam-card{
+    text-align: center;
+    gap: 2rem;
+    padding: 5%;
+    
+    
+}
+.cards{
+    text-align: center;
+    box-shadow: 10px 10px 20px rgb(197, 147, 39);
+    padding: 7% 3%;
+    border-radius: 5%;
+}
+
+
+
+
 /* Responsive Section hare */
 @media screen and (max-width: 576px) {
     /* Nav section */
