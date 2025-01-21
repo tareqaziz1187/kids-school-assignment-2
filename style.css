@@ -264,7 +264,8 @@ header{
     /* Story  */
     
     .stories{
-        grid-template-columns: repeat(1 ,minmax(300px, 1fr));
+        max-width: 100%;
+        grid-template-columns: repeat(2 ,minmax(150px, 1fr));
         align-items: center;
 
     }
