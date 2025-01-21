@@ -218,7 +218,7 @@ header{
   .footer-container{
     display: flex;
     justify-content: space-around;
-    background-color: rgb(78, 227, 153);
+    background-color: rgba(78, 227, 153, 0.796);
   }
   .nav-footer ul li{
     list-style: none;
