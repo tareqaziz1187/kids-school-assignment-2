@@ -211,6 +211,19 @@ header{
     color: #333;
     padding: 0 10px 20px;
   }
+
+
+  /* Footer Section */
+
+  .footer-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(78, 227, 153);
+  }
+  .nav-footer ul li{
+    list-style: none;
+    
+  }
   
 
 
@@ -271,6 +284,11 @@ header{
     }
     .story1{
         display: none;
+    }
+
+    /* Footer Section */
+    .footer-container{
+        flex-direction: column;
     }
 
 
