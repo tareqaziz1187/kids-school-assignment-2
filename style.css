@@ -111,39 +111,107 @@ header{
     text-align: center;
     margin: 2% 5%;
 }
+ 
 .story-cards{
-    display: grid;
-    grid-template-columns: repeat(2 , 1fr);
-    gap: 2rem;
-    padding: 3rem 0;
-    
-}
-.stories{
+    padding: 5% 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
 }
-.story1{
-    border-radius: 5%;
+  
+  .story1 {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+    max-width: 100%;
+    
+  }
+  
+  .story1:hover {
+    transform: translateY(-10px);
+  }
+  
+  .story1 img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .story1 button {
+    background-color: #ffcc00;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: -10px;
+    cursor: pointer;
+    border-radius: 20px;
     position: relative;
-}
-.story1 button{
-    position:absolute;
-    top: 55%;
-    left: 50%;
-    background-color: greenyellow;
-}
-.card{
-    background-color: #ffffff;
-    border-radius: 5%;
-}
-.card img{
-    border-radius: 5% 5% 0 0;
-}
+    top: -20px;
+  }
+  
+  .story1 h1 {
+    font-size: 18px;
+    color: #333;
+    padding: 10px 15px;
+  }
+  
+  .story1 p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    padding: 0 15px 20px;
+  }
 
-.story1{
-    background-color: #ffffff;
-}
+.stories {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card button {
+    background-color: #ffcc00;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: -10px;
+    cursor: pointer;
+    border-radius: 20px;
+    position: relative;
+    top: -20px;
+  }
+  
+  .card h1 {
+    font-size: 18px;
+    color: #333;
+    padding: 0 10px 20px;
+  }
+  
 
 
 
@@ -192,6 +260,18 @@ header{
     .arrow-button{
         display: none;
     }
+
+    /* Story  */
+    
+    .stories{
+        grid-template-columns: repeat(1 ,minmax(300px, 1fr));
+        align-items: center;
+
+    }
+    .story1{
+        display: none;
+    }
+
 
 
     
