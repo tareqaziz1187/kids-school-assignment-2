@@ -46,7 +46,7 @@ header{
 .bannar-text-area{
     align-content: center;
 }
-.bannar-text-area button{
+.black-button{
     background-color: black;
     color: white;
     padding: 0.7rem 1.5rem;
@@ -55,6 +55,8 @@ header{
 .bannar-img-area img{
     width: 100%;
 }
+
+
 
 
 
@@ -79,12 +81,68 @@ header{
     padding: 5%;
     
     
+    
 }
 .cards{
     text-align: center;
     box-shadow: 10px 10px 20px rgb(197, 147, 39);
     padding: 7% 3%;
     border-radius: 5%;
+}
+.arrow-button{
+    justify-content: center;
+    gap: 2rem;
+}
+.left img{
+    height: 3rem;
+    width: 3rem;
+    background-color: coral;
+    border-radius: 50%;
+}
+.right img{
+    height: 3rem;
+    width: 3rem;
+    background-color: coral;
+    border-radius: 50%;
+}
+
+/* story section */
+.story-container{
+    text-align: center;
+    margin: 2% 5%;
+}
+.story-cards{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 2rem;
+    padding: 3rem 0;
+    
+}
+.stories{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+.story1{
+    border-radius: 5%;
+    position: relative;
+}
+.story1 button{
+    position:absolute;
+    top: 55%;
+    left: 50%;
+    background-color: greenyellow;
+}
+.card{
+    background-color: #ffffff;
+    border-radius: 5%;
+}
+.card img{
+    border-radius: 5% 5% 0 0;
+}
+
+.story1{
+    background-color: #ffffff;
 }
 
 
@@ -117,10 +175,22 @@ header{
     /* Bannar Section */
     .bannar-container{
         flex-direction: column-reverse;
+        text-align: center;
     
     }
     .bannar-img-area img{
         width: 100%;
+    }
+
+    /* curriculam-card */
+    .curriculam-card{
+        flex-direction: column;
+    }
+    .cards img{
+        max-width: 100%;
+    }
+    .arrow-button{
+        display: none;
     }
 
 
