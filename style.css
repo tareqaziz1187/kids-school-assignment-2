@@ -34,6 +34,28 @@ header{
 .contact img{
     display: none;
 }
+/* marquee section */
+/* .marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+.marquee span {
+    color: #88ff00;
+    font-size: xx-large;
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 1s linear infinite;
+}
+@keyframes marquee {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+} */
 
 /* Bannar Section */
 
